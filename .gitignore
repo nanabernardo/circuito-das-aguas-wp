@@ -1,0 +1,64 @@
+# ===== WORDPRESS CORE =====
+# Ignora todo o core do WordPress para versionar apenas o código customizado
+/wp-admin/
+/wp-includes/
+/index.php
+/license.txt
+/readme.html
+/xmlrpc.php
+/wp-activate.php
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-config.php
+/wp-config-sample.php
+/wp-cron.php
+/wp-links-opml.php
+/wp-load.php
+/wp-login.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+
+# ===== CONFIGURAÇÃO LOCAL E AMBIENTE =====
+# Arquivo de configuração local (protege dados sensíveis)
+wp-config-local.php
+.env
+.env.local
+
+# ===== TRADUÇÕES E IDIOMAS =====
+/wp-content/languages
+
+# ===== CONTEÚDO DINÂMICO =====
+# Uploads de mídia e arquivos de cache
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+
+# Logs e backups
+/wp-content/debug.log
+*.log
+*.sql
+*.tar.gz
+*.zip
+/wp-content/*-wprbackups/ 
+
+# ===== PLUGINS E TEMAS (versão avançada) =====
+# Ignora todos os plugins, exceto os que você desenvolve
+/wp-content/plugins/*
+!/wp-content/plugins/seu-plugin-personalizado/ 
+
+
+
+# ===== DEPENDÊNCIAS E FERRAMENTAS DE BUILD =====
+node_modules/
+vendor/
+dist/
+build/
+
+# ===== SISTEMA E FERRAMENTAS (macOS, Windows, IDEs) =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+npm-debug.log
