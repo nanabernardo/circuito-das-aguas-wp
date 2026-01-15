@@ -20,6 +20,7 @@
 /wp-signup.php
 /wp-trackback.php
 
+
 # ===== CONFIGURAÇÃO LOCAL E AMBIENTE =====
 # Arquivo de configuração local (protege dados sensíveis)
 wp-config-local.php
@@ -42,6 +43,11 @@ wp-config-local.php
 *.tar.gz
 *.zip
 /wp-content/*-wprbackups/ 
+/wp-content/ai1wm-backups/
+/wp-content/wpvivid_staging
+/wp-content/wpvivid_uploads
+/wp-content/wpvividbackups
+/wp-content/uploads
 
 # ===== PLUGINS E TEMAS (versão avançada) =====
 # Ignora todos os plugins, exceto os que você desenvolve
